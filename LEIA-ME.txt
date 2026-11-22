@@ -3,10 +3,15 @@ Desenvolvido por Othon Righetti · CEO ABELHA SOLUÇÕES · CNPJ 50.891.115/0001
 
 COMO INSTALAR
   Windows (versão portátil .zip): descompacte numa pasta e abra o AbelhaCod.exe.
-  Mac (.dmg ou .zip): arraste o AbelhaCod para a pasta Aplicativos.
-    Na primeira vez: Ajustes do Sistema > Privacidade e Segurança > Abrir Mesmo Assim.
-    Se o macOS disser que o app está "danificado", abra o Terminal e rode:
-      xattr -dr com.apple.quarantine /Applications/AbelhaCod.app
+  MacBook / iMac / Mac mini (macOS 12 ou mais novo — não roda em iPhone/iPad):
+    1. Menu Apple > Sobre este Mac: "Chip Apple M1-M4" = arm64; "Intel" = x64.
+    2. Abra o .dmg e arraste o AbelhaCod para a pasta Aplicativos.
+    3. Primeira vez: abra o AbelhaCod, clique OK no aviso e vá em
+       Ajustes do Sistema > Privacidade e Segurança > Abrir Mesmo Assim (confirme com a senha).
+       No macOS 14 ou anterior: botão direito no AbelhaCod > Abrir > Abrir.
+    4. Se disser que o app está "danificado", abra o Terminal e rode:
+         xattr -dr com.apple.quarantine /Applications/AbelhaCod.app
+    Passo a passo completo: https://github.com/fiscaliace-ops/AbelhaCod-Setup/blob/main/INSTALAR-MAC.md
 
 PRIMEIROS PASSOS
   1. Abra uma pasta de projeto (Arquivo > Abrir Pasta).
@@ -20,6 +25,7 @@ ATALHOS
   Ctrl+Alt+I  trocar de IA              Ctrl+Alt+S  salvar ponto de restauração
   Ctrl+Alt+Z  desfazer o que a IA fez   Ctrl+Alt+R  testar no navegador
   Ctrl+Alt+F  corrigir até passar       Ctrl+Alt+V  varredura de segurança
+  Ctrl+Alt+W  preview ao vivo           Ctrl+Alt+D  testar no Android
   Ctrl+Alt+T  tema claro/escuro         (no Mac use Cmd no lugar de Ctrl)
 
 SUPORTE

@@ -17,13 +17,20 @@ Vá em **[Releases › última versão](../../releases/latest)** e baixe o arqui
 | **Mac com chip Apple (M1, M2, M3, M4)** | `AbelhaCod-macOS-arm64-<versão>.dmg` |
 | **Mac com processador Intel** | `AbelhaCod-macOS-x64-<versão>.dmg` |
 
-**Primeira vez no Mac:** arraste o AbelhaCod para *Aplicativos* e abra em **Ajustes do Sistema › Privacidade e Segurança › Abrir Mesmo Assim**.
-Se aparecer que o app está "danificado", abra o Terminal e rode: `xattr -dr com.apple.quarantine /Applications/AbelhaCod.app`
+### 🍎 No MacBook (macOS), em 4 passos
+
+1. **Qual baixar:** menu  › *Sobre este Mac*. Se aparecer "Chip Apple M1–M4", baixe o **arm64**; se aparecer "Intel", o **x64**.
+2. Abra o `.dmg` e **arraste o AbelhaCod para Aplicativos**.
+3. **Primeira vez:** abra o AbelhaCod e clique em **OK** no aviso. Vá em **Ajustes do Sistema › Privacidade e Segurança**, clique em **Abrir Mesmo Assim** e confirme com a senha. No macOS 14 ou anterior: botão direito no app › **Abrir** › **Abrir**.
+4. Se aparecer **"está danificado"**, abra o Terminal e rode `xattr -dr com.apple.quarantine /Applications/AbelhaCod.app`.
+
+👉 **Passo a passo completo, com atualização e desinstalação: [INSTALAR-MAC.md](INSTALAR-MAC.md)**
+
+> O AbelhaCod roda no macOS (MacBook, iMac, Mac mini), não em iPhone/iPad.
 
 <p align="center"><img src="img/02-chat.png" width="320" alt="Chat do AbelhaCod"> <img src="img/03-aovivo.png" width="520" alt="A IA editando ao vivo"></p>
 
 ## ✨ O que o AbelhaCod faz
-
 
 **Uma IA que trabalha de verdade no seu projeto**
 - Cria telas, páginas, APIs e apps completos; corrige bugs; explica código; escreve testes — direto nos seus arquivos.
@@ -44,9 +51,14 @@ Sênior full stack, front-end, back-end e APIs, mobile (Android, Flutter, iOS), 
 - **Memória do projeto:** a IA lembra o que já foi feito e não estraga o que já funciona.
 - **Varredura de segurança** do projeto (senhas no código, injeção de SQL, XSS e mais) com correção automática.
 
+**Android e Play Store**
+- Do pedido ("faz um app de agendamento") ao app rodando no emulador **dentro do AbelhaCod**, ou no seu celular por cabo ou Wi-Fi.
+- Se o app travar, a IA recebe o erro e o print da tela, corrige e testa de novo.
+- **AAB assinado** com a chave guardada no cofre do sistema (com backup), checagem do que reprova na loja e **publicação na Play Store** sem sair do editor.
+
 **Produtividade**
 - **Corrigir até passar:** roda os testes, a IA corrige, roda de novo… até dar certo.
-- **Testar no navegador** com um atalho.
+- **Preview ao vivo** ao lado do código e **testar no navegador** com um atalho.
 - **Uso de tokens** sempre visível, com dicas para economizar.
 - **Git sem dor de cabeça:** diagnóstico que encontra e corrige problemas de conexão e login.
 - Cole **prints** direto no chat, tema **claro e escuro**, tutorial com imagens na primeira abertura.
@@ -55,6 +67,7 @@ Sênior full stack, front-end, back-end e APIs, mobile (Android, Flutter, iOS), 
 Várias IAs gratuitas já integradas. Se uma estiver ocupada, o AbelhaCod passa para a próxima sozinho, sem perder a conversa.
 
 <p align="center"><img src="img/04-rodape.png" width="320" alt="Agentes especialistas"> <img src="img/tokens.png" width="320" alt="Uso de tokens"></p>
+<p align="center"><img src="img/09-preview.png" width="460" alt="Preview ao vivo"> <img src="img/10-android.png" width="300" alt="Android dentro do AbelhaCod"></p>
 
 ## ⌨️ Atalhos
 
@@ -68,6 +81,8 @@ Várias IAs gratuitas já integradas. Se uma estiver ocupada, o AbelhaCod passa 
 | `Ctrl+Alt+R` | Testar no navegador |
 | `Ctrl+Alt+F` | Corrigir até passar |
 | `Ctrl+Alt+V` | Varredura de segurança |
+| `Ctrl+Alt+W` | Preview ao vivo |
+| `Ctrl+Alt+D` | Testar no Android e corrigir sozinho |
 | `Ctrl+Alt+T` | Tema claro / escuro |
 
 No Mac, use `Cmd` no lugar de `Ctrl`.
