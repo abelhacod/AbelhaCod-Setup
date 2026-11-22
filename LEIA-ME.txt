@@ -1,0 +1,30 @@
+AbelhaCod — editor de código com inteligência artificial
+Desenvolvido por Othon Righetti · CEO ABELHA SOLUÇÕES · CNPJ 50.891.115/0001-91
+
+COMO INSTALAR
+  Windows (versão portátil .zip): descompacte numa pasta e abra o AbelhaCod.exe.
+  Mac (.dmg ou .zip): arraste o AbelhaCod para a pasta Aplicativos.
+    Na primeira vez: Ajustes do Sistema > Privacidade e Segurança > Abrir Mesmo Assim.
+    Se o macOS disser que o app está "danificado", abra o Terminal e rode:
+      xattr -dr com.apple.quarantine /Applications/AbelhaCod.app
+
+PRIMEIROS PASSOS
+  1. Abra uma pasta de projeto (Arquivo > Abrir Pasta).
+  2. Clique na colmeia na barra lateral para abrir o Copiloto.
+  3. No botão "IA", escolha Claude, Gemini, Grok, Meta AI ou o Chat Grátis.
+  4. Peça o que quiser: criar telas, corrigir erros, explicar código, escrever testes.
+  O tutorial completo abre na primeira vez (ou no menu "..." do Copiloto > Tutorial do AbelhaCod).
+
+ATALHOS
+  Ctrl+Alt+A  abrir o Copiloto          Ctrl+Alt+G  abrir o Chat Grátis
+  Ctrl+Alt+I  trocar de IA              Ctrl+Alt+S  salvar ponto de restauração
+  Ctrl+Alt+Z  desfazer o que a IA fez   Ctrl+Alt+R  testar no navegador
+  Ctrl+Alt+F  corrigir até passar       Ctrl+Alt+V  varredura de segurança
+  Ctrl+Alt+T  tema claro/escuro         (no Mac use Cmd no lugar de Ctrl)
+
+SUPORTE
+  Alguma IA falhou, deu erro ou travou? Fale com a gente:
+  (85) 98414-6479 — Suporte AbelhaCod
+
+© 2026 Othon Righetti — ABELHA SOLUÇÕES. Todos os direitos reservados.
+Baseado no Code - OSS (licença MIT, Microsoft).
