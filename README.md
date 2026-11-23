@@ -110,9 +110,5 @@ No Mac, use `Cmd` no lugar de `Ctrl`.
 Alguma IA ou modelo falhou, deu erro ou travou? **Fale com a gente: (85) 98414-6479 — Suporte AbelhaCod.**
 Dica: no **Chat Grátis**, o botão **Testar** confere do seu computador quais IAs estão respondendo agora; o modo **Automático** passa a evitar as que falharem.
 
-Contribua com o projeto doando qualquer valor via pix para manter as **atualizações e suporte** que são **gratuitos**
-- Tipo de Chave: **CNPJ**
-- Chave: **50.891.115/0001-91**
-
 © 2026 Othon Righetti — ABELHA SOLUÇÕES (CNPJ 50.891.115/0001-91). Todos os direitos reservados.
 Os instaladores são gratuitos para uso. O código-fonte do AbelhaCod não é público. Baseado no Code - OSS (licença MIT, Microsoft).
