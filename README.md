@@ -42,8 +42,13 @@ Vá em **[Releases › última versão](../../releases/latest)** e baixe o arqui
 - Abriu uma aba sua? A IA não mexe mais na sua tela. Terminou? As abas dela fecham sozinhas.
 - No chat, cada passo aparece organizado: arquivos lidos, edições com o que entrou e saiu, comandos com o resultado e o plano da tarefa.
 
-**12 agentes especialistas**
-Sênior full stack, front-end, back-end e APIs, mobile (Android, Flutter, iOS), banco de dados, DevOps e nuvem, cibersegurança, testes, design e UX, dados e IA, jogos e revisor de código.
+**Chatbots para WhatsApp e Telegram, de arrastar e soltar**
+- Monte o atendimento em blocos: mensagens, perguntas, opções, condições, chamadas de API, atendente humano e **IA humanizada** que conversa com base no que você ensinar sobre a empresa.
+- WhatsApp pela **API oficial da Meta** (botões e listas) ou pela **GoAPI** (texto e mídia — use com responsabilidade e respeite o limite de mensagens por dia para evitar bloqueio do número), e **Telegram**.
+- Teste no **simulador** dentro do editor e gere o servidor pronto para subir no seu VPS com Docker.
+
+**16 agentes especialistas**
+Sênior full stack, front-end, back-end e APIs, mobile (Android, Flutter, iOS), banco de dados, DevOps e nuvem, cibersegurança, testes, design e UX, dados e IA, jogos, revisor de código e o **modo Brasil**: Pix e pagamentos, NF-e e fiscal, LGPD e WhatsApp.
 
 **Segurança e controle**
 - Antes de instalar algo ou rodar um comando fora da rotina, o AbelhaCod mostra **o que vai acontecer e se é perigoso** — você decide.
@@ -56,7 +61,16 @@ Sênior full stack, front-end, back-end e APIs, mobile (Android, Flutter, iOS), 
 - Se o app travar, a IA recebe o erro e o print da tela, corrige e testa de novo.
 - **AAB assinado** com a chave guardada no cofre do sistema (com backup), checagem do que reprova na loja e **publicação na Play Store** sem sair do editor.
 
+**Do zero ao ar**
+- **Novo projeto a partir de modelos:** site, landing page, CRM, automação de WhatsApp, API Node/Laravel, painel administrativo e app Flutter.
+- **Publicar em 1 clique** no seu VPS (inclusive Hostinger), na Vercel ou na Netlify.
+- **Explorador de banco de dados** (SQLite, PostgreSQL, MySQL) com confirmação antes de qualquer alteração.
+
 **Produtividade**
+- **Ctrl+I:** selecione um trecho, diga o que mudar e a IA edita só ali; depois **revise o antes e depois** de cada arquivo e mantenha ou desfaça.
+- **Autocompletar com IA** enquanto você digita.
+- Chat com **/comandos**, **@arquivo**, várias conversas e regras do projeto (AGENTS.md, CLAUDE.md, .cursorrules).
+- **Mensagem de commit escrita pela IA** e **terminal que oferece corrigir** quando um comando falha.
 - **Corrigir até passar:** roda os testes, a IA corrige, roda de novo… até dar certo.
 - **Preview ao vivo** ao lado do código e **testar no navegador** com um atalho.
 - **Uso de tokens** sempre visível, com dicas para economizar.
@@ -84,6 +98,8 @@ Várias IAs gratuitas já integradas. Se uma estiver ocupada, o AbelhaCod passa 
 | `Ctrl+Alt+W` | Preview ao vivo |
 | `Ctrl+Alt+D` | Testar no Android e corrigir sozinho |
 | `Ctrl+Alt+T` | Tema claro / escuro |
+| `Ctrl+I` | Editar o trecho selecionado com IA |
+| `Tab` | Aceitar a sugestão do autocompletar |
 
 No Mac, use `Cmd` no lugar de `Ctrl`.
 
