@@ -37,7 +37,7 @@ Vá em **[Releases › última versão](../../releases/latest)** e baixe o arqui
 - **Fedora, openSUSE:** `sudo dnf install ./AbelhaCod-linux-x86_64-<versão>.rpm`
 - **Qualquer distribuição:** extraia o `.tar.gz` e rode `./AbelhaCod/abelhacod`
 
-Funciona em distribuições de 64 bits recentes (Ubuntu 22.04 ou mais novo, Debian 12+, Fedora 36+). Depois de instalar, o AbelhaCod aparece no menu de aplicativos.
+Funciona em distribuições de 64 bits a partir do Ubuntu 20.04, Debian 10, Mint 20 e Fedora 32. Depois de instalar, o AbelhaCod aparece no menu de aplicativos.
 
 <p align="center"><img src="img/02-chat.png" width="320" alt="Chat do AbelhaCod"> <img src="img/03-aovivo.png" width="520" alt="A IA editando ao vivo"></p>
 
