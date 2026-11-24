@@ -16,6 +16,9 @@ Vá em **[Releases › última versão](../../releases/latest)** e baixe o arqui
 | Windows sem instalar (portátil) | `AbelhaCod-win32-x64-<versão>.zip` |
 | **Mac com chip Apple (M1, M2, M3, M4)** | `AbelhaCod-macOS-arm64-<versão>.dmg` |
 | **Mac com processador Intel** | `AbelhaCod-macOS-x64-<versão>.dmg` |
+| **Linux** Ubuntu, Debian, Mint | `AbelhaCod-linux-amd64-<versão>.deb` |
+| **Linux** Fedora, openSUSE | `AbelhaCod-linux-x86_64-<versão>.rpm` |
+| **Linux** qualquer distribuição (sem instalar) | `AbelhaCod-linux-x64-<versão>.tar.gz` |
 
 ### 🍎 No MacBook (macOS), em 4 passos
 
@@ -27,6 +30,14 @@ Vá em **[Releases › última versão](../../releases/latest)** e baixe o arqui
 👉 **Passo a passo completo, com atualização e desinstalação: [INSTALAR-MAC.md](INSTALAR-MAC.md)**
 
 > O AbelhaCod roda no macOS (MacBook, iMac, Mac mini), não em iPhone/iPad.
+
+### 🐧 No Linux
+
+- **Ubuntu, Debian, Mint:** `sudo apt install ./AbelhaCod-linux-amd64-<versão>.deb`
+- **Fedora, openSUSE:** `sudo dnf install ./AbelhaCod-linux-x86_64-<versão>.rpm`
+- **Qualquer distribuição:** extraia o `.tar.gz` e rode `./AbelhaCod/abelhacod`
+
+Funciona em distribuições de 64 bits recentes (Ubuntu 22.04 ou mais novo, Debian 12+, Fedora 36+). Depois de instalar, o AbelhaCod aparece no menu de aplicativos.
 
 <p align="center"><img src="img/02-chat.png" width="320" alt="Chat do AbelhaCod"> <img src="img/03-aovivo.png" width="520" alt="A IA editando ao vivo"></p>
 
